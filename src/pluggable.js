@@ -1,6 +1,6 @@
 import path from 'path';
 
-export default class Pluggable {
+class Pluggable {
   
   constructor(plugins) {
     if (!plugins) {
@@ -56,3 +56,5 @@ export default class Pluggable {
     }
   }
 }
+
+module.exports = Pluggable;
